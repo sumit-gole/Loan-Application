@@ -628,3 +628,40 @@ Caused by: java.sql.SQLSyntaxErrorException: Unknown database 'loandb1'
 2021-11-24 11:15:11,616 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
 2021-11-24 11:15:13,741 INFO com.loanapp.LoanApplication [main] Started LoanApplication in 12.623 seconds (JVM running for 15.451)
 2021-11-24 11:19:08,050 WARN com.zaxxer.hikari.pool.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m32s952ms519µs600ns).
+2021-11-24 14:24:37,803 WARN com.zaxxer.hikari.pool.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h17m2s876ms220µs100ns).
+2021-11-24 15:14:01,526 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(166)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2021-11-24 15:14:01,652 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(166)-127.0.0.1] HikariPool-1 - Shutdown completed.
+2021-11-24 15:47:09,934 INFO com.loanapp.LoanApplication [main] Starting LoanApplication using Java 16.0.2 on DESKTOP-IGFK8U8 with PID 5796 (G:\Angular and Spring Boot Project\Loan Application\Loan Application (Back-end - Spring Boot)\target\classes started by ACER in G:\Angular and Spring Boot Project\Loan Application\Loan Application (Back-end - Spring Boot))
+2021-11-24 15:47:09,953 INFO com.loanapp.LoanApplication [main] No active profile set, falling back to default profiles: default
+2021-11-24 15:47:13,955 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2021-11-24 15:47:13,957 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-11-24 15:47:14,472 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2021-11-24 15:47:15,056 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-11-24 15:47:15,202 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-11-24 15:47:15,508 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-11-24 15:47:15,759 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-11-24 15:47:18,683 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-11-24 15:47:18,757 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-11-24 15:47:23,958 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-11-24 15:47:33,174 INFO com.loanapp.LoanApplication [main] Started LoanApplication in 25.011 seconds (JVM running for 30.145)
+2021-11-24 15:48:26,964 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-24 15:49:31,032 INFO com.loanapp.service.LoanManagementService [http-nio-8080-exec-10] Creating Even Principal Schedule for Loan com.loanapp.model.Loan@3efe244e
+2021-11-24 15:49:31,139 INFO com.loanapp.service.LoanManagementService [http-nio-8080-exec-10] New Loan com.loanapp.model.Loan@6b056fa1 created for the customer
+2021-11-24 15:49:35,795 INFO com.loanapp.service.LoanManagementService [http-nio-8080-exec-2] Getting loan details for existing customer 1
+2021-11-24 15:49:44,105 INFO com.loanapp.service.LoanManagementService [http-nio-8080-exec-5] Getting Payment Schedule for Loan LOAN40d995a3
+2021-11-24 17:01:28,289 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(79)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2021-11-24 17:01:28,366 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(79)-127.0.0.1] HikariPool-1 - Shutdown completed.
+2021-11-24 17:02:06,353 INFO com.loanapp.LoanApplication [main] Starting LoanApplication using Java 16.0.2 on DESKTOP-IGFK8U8 with PID 14500 (G:\Angular and Spring Boot Project\Loan Application\Loan Application (Back-end - Spring Boot)\target\classes started by ACER in G:\Angular and Spring Boot Project\Loan Application\Loan Application (Back-end - Spring Boot))
+2021-11-24 17:02:06,357 INFO com.loanapp.LoanApplication [main] No active profile set, falling back to default profiles: default
+2021-11-24 17:02:09,206 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2021-11-24 17:02:09,207 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-11-24 17:02:09,545 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2021-11-24 17:02:09,998 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-11-24 17:02:10,111 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-11-24 17:02:10,379 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-11-24 17:02:10,681 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-11-24 17:02:11,930 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-11-24 17:02:11,961 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-11-24 17:02:15,299 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-11-24 17:02:17,486 INFO com.loanapp.LoanApplication [main] Started LoanApplication in 11.771 seconds (JVM running for 13.243)
+2021-11-24 17:06:24,399 WARN com.zaxxer.hikari.pool.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m16s982ms507µs900ns).
