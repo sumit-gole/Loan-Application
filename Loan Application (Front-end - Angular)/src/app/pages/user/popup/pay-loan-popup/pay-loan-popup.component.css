@@ -1,0 +1,39 @@
+.space {
+    flex: 1 1 auto;
+}
+
+.space {
+    flex: 1 1 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+  
+.mr20 {
+    margin-right: 20px;
+}
+  
+.ml20 {
+    margin-left: 20px;
+}
+  
+.home-button:hover {
+    color: #fff;
+}
+  
+.confirm-btn{
+    background-color:#429cdc;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+    margin-top:2%;
+    margin-bottom:0%
+}
+
+.cancel-btn{
+    background-color:#429cdc;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+    margin-top:2%;
+    margin-bottom:0%
+}

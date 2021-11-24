@@ -1,0 +1,57 @@
+<div class="box-width">
+  <mat-toolbar style="background-color: #FFC0CB; color: #28282B; font-size: 220%;" class="mat-elevation-z8">
+    <span class="title-center">VIEW LOAN DETAILS</span>
+  </mat-toolbar>
+
+  <mat-card class="mat-elevation-z8">
+    <mat-form-field appearance="standard">
+      <mat-label>Filter</mat-label>
+      <input matInput (keyup)="applyFilter($event)" placeholder="Ex. 1001" #input>
+    </mat-form-field>
+
+    <div class="card-body">
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th scope="col">SR. NO.</th>
+            <th scope="col">LOAN ID</th>
+            <th scope="col">LOAN AMOUNT</th>
+            <th scope="col">START DATE</th>
+            <th scope="col">MATURITY DATE</th>
+            <th scope="col">LOAN DURATION (IN YEARS)</th>
+            <th scope="col">PAYMENT FREQUENCY</th>
+            <th scope="col">PAYMENT SCHEDULE</th>
+            <th scope="col">PAYMENT TERM</th>
+            <th scope="col">PROJECTED INTEREST</th>
+            <th scope="col">ACTION</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr *ngFor="let loan of loans; index as i">
+            <th scope="row">{{ i + 1 }}</th>
+            <td>{{ loan.loanId | uppercase}}</td>
+            <td>{{ loan.loanAmount | number }}</td>
+            <td>{{ loan.startDate }}</td>
+            <td>{{ loan.maturityDate }}</td>
+            <td>{{ loan.loanDuration | number }}</td>
+            <td>{{ loan.paymentFrequency }}</td>
+            <td>{{ loan.paymentSchedule | number }}</td>
+            <td>{{ loan.paymentTerm }}</td>
+            <td>{{ loan.projectedInterest | number }}</td>
+            <td *ngIf="loan.payment"><span class="badge bg-success">Approved</span></td>
+            <td *ngIf="loan.payment"><span class="badge bg-info">Waiting</span></td>
+            <td *ngIf="!loan.payment">
+              <button class="btn btn-primary mt-auto btn-sm" (click)=navigatePaymentSchedule(loan.loanId)>
+                PAY
+              </button>
+            </td>
+          </tr>
+        
+        </tbody>
+      </table>
+    </div>
+
+  </mat-card>
+</div>
+<br><br><br><br><br>

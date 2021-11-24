@@ -1,0 +1,67 @@
+<div class="bootstrap-wrapper">
+    <div class="container">
+        <div class="row mt50">
+            <div class="col-md-6 offset-md-3">
+                <mat-card class="mat-card mat-elevation-z20">
+                    <div class="container text-center">
+                        <img class="img-fluid img-css" src="../../assets/signin/login.png" alt="">
+                    </div>
+                    <h1 class="text-center">WELCOME BACK.. SIGN IN HERE.!!</h1>
+                    <hr>
+                    <!-- {{ loginData | json }} -->
+                    <form #loginForm="ngForm" (ngSubmit)="formSubmit()">
+                        <!-- Username Field-->
+                        <div class="form-row">
+                            <div class="form-group col">
+                                <mat-form-field class="full-width" appearance="outline">
+                                    <mat-label>USER NAME</mat-label>
+                                    <input 
+                                        [(ngModel)] = "loginData.username"
+                                        name="username"  required                
+                                        matInput placeholder="Enter here"
+                                    />
+                                    <mat-icon matSuffix>account_box</mat-icon>
+                                    <mat-hint>Valid User Name</mat-hint>
+                                </mat-form-field>
+                            </div>
+
+                            <!-- Password Field-->
+                            <div class="form-group col">                        
+                                <mat-form-field class="full-width" appearance="outline">
+                                    <mat-label>USER PASSWORD</mat-label>
+                                    <input 
+                                        [(ngModel)] = "loginData.password"
+                                        name="password" required
+                                        type="password" matInput 
+                                        placeholder="Enter here" 
+                                        [type]="hide ? 'password' : 'text'"
+                                    />
+                                    <a mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'" [attr.aria-pressed]="hide">
+                                        <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+                                    </a>
+                                </mat-form-field>
+                            </div>
+                        
+                            <div class="form-group col">  
+                                <div class="container text-center btn-group w-100 p-0">
+                                    <button class="w-50 p-1" type="submit" mat-raised-button color="primary" [disabled]="loginForm.invalid"> 
+                                        SIGN IN 
+                                    </button>
+                                    <button style="width: 50%; padding: 1px;" type="reset" class="ml20" mat-raised-button color="accent"> 
+                                        RESET 
+                                    </button>
+                                </div>
+                            </div>
+                    
+                            <div class="form-group col">
+                                <h3 class="pt-3 pb-4">
+                                    Not Registered? &nbsp;<a [routerLink]="'/signup'">Create an account..</a>
+                                </h3>
+                            </div>
+                        </div>
+                    </form>
+                </mat-card>
+            </div>
+        </div>
+    </div>
+</div>

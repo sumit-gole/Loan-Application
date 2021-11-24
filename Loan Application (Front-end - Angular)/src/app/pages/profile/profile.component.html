@@ -1,0 +1,66 @@
+<mat-card *ngIf="user">
+    <h1 class="text-center"> YOUR PROFILE DETAILS </h1>
+    <!-- {{ user | json }} -->
+    <mat-card-content>
+        <div class="bootstrap-wrapper">
+            <div class="container">
+                <div class="container text-center">
+
+                    <img src="/assets/default_profile/default_profile1.png" alt="" class="profile-image"/>
+                    
+                    <h1 class="mt20"> {{ user.name | uppercase }} </h1>
+                    <div class="row">
+                        <div class="col-md-10 offset-md-1">
+                            <!-- Table Details..-->
+                            <table class="table text-center table-borderless">
+                                <tr>
+                                    <td> USERNAME </td>
+                                    <td> {{ user.username | uppercase }} </td>
+                                </tr>
+                                <tr>
+                                    <td> USER ID </td>
+                                    <td> {{ user.idLong }} </td>
+                                </tr>
+                                <tr>
+                                    <td> ACCOUNT NO. </td>
+                                    <td> {{ user.accno }} </td>
+                                </tr>
+                                <!-- It will display only phone data present, if it's null then not displaying phone row -->
+                                <!-- <tr *ngIf="user.phone"> -->
+                                <tr>
+                                    <td> PHONE </td>
+                                    <td> {{ user.phone }} </td>
+                                </tr>
+                                <tr>
+                                    <td> ADDRESS </td>
+                                    <td> {{ user.address | uppercase }} </td>
+                                </tr>
+                                <tr>
+                                    <td> ROLE </td>
+                                    <td> {{ user.authorities[0].authority | uppercase }} </td>
+                                </tr>
+                                <tr>
+                                    <td> STATUS </td>
+                                    <td> {{ user.enabled ? "ACTIVE" : "OFFLINE" }} 
+                                        <!--<span class="material-icons" style="color: green;">
+                                            toggle_on
+                                        </span> -->
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </mat-card-content>
+
+    <mat-card-actions class="text-center">
+        <button mat-raised-button color="primary">UPDATE</button>
+        <button mat-raised-button color="accent">SHARE</button>
+    </mat-card-actions>
+</mat-card>
+
+<!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+

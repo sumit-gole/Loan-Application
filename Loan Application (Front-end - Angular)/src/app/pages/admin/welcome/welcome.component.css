@@ -1,0 +1,10 @@
+.box-width{
+    max-width: 90%;
+    margin: auto;
+    margin-top: 60px;
+    text-align: center;
+}
+
+.title-center {
+    margin: 0 auto;
+}

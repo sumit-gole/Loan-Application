@@ -1,0 +1,14 @@
+.full-width{
+    width: 100%;
+} 
+  
+a{
+    text-decoration: none !important;
+}
+
+
+.img-css{
+    width: 200px;
+    height: 110px;
+}
+
