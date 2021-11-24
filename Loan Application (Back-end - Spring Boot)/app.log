@@ -662,3 +662,6 @@ Caused by: java.sql.SQLSyntaxErrorException: Unknown database 'loandb1'
 2021-11-24 17:02:10,681 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
 2021-11-24 17:02:11,930 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
 2021-11-24 17:02:11,961 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-11-24 17:02:15,299 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-11-24 17:02:17,486 INFO com.loanapp.LoanApplication [main] Started LoanApplication in 11.771 seconds (JVM running for 13.243)
+2021-11-24 17:06:24,399 WARN com.zaxxer.hikari.pool.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m16s982ms507µs900ns).
