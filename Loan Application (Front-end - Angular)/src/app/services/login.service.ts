@@ -22,16 +22,16 @@ export class LoginService {
     return this.http.post(`${baseUrl}/generate-token`, loginData);
   }
 
-  //login user : set token in localStorage..
+  //login user : set token in sessionStorage..
   public loginUser(token:any){
-    localStorage.setItem("token", token);
+    sessionStorage.setItem("token", token);
     //this.loginStatusSubject.next(true);
     return true;
   }
 
   //isLogin: here we checked user is logged in or not..
   public isLoggedIn(){
-    let tokenStr = localStorage.getItem("token");
+    let tokenStr = sessionStorage.getItem("token");
     if(tokenStr==undefined || tokenStr =='' || tokenStr == null){
       return false;
     }
@@ -42,24 +42,24 @@ export class LoginService {
 
   //isLogout : remove token from local storage..
   public logout(){
-    localStorage.removeItem('token');
-    localStorage.removeItem('user');
+    sessionStorage.removeItem('token');
+    sessionStorage.removeItem('user');
     return true;
   }
 
   //get token..
   public getToken(){
-    return localStorage.getItem('token');
+    return sessionStorage.getItem('token');
   }
 
   //set userDetail..
   public setUser(user: any){
-    localStorage.setItem('user', JSON.stringify(user));
+    sessionStorage.setItem('user', JSON.stringify(user));
   }
 
   //getUser..
   public getUser(){
-    let userStr = localStorage.getItem('user');
+    let userStr = sessionStorage.getItem('user');
     if(userStr != null){
       return JSON.parse(userStr);
     }
