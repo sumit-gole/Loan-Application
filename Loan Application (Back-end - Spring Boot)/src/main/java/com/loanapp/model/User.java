@@ -31,7 +31,7 @@ public class User implements UserDetails{
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	
-	private Long idLong;
+	private Long userId;
 	//private String customerId;
 	private String name;
 	private long accno;
@@ -65,7 +65,7 @@ public class User implements UserDetails{
 	public User(Long idLong,  String name, long accno, String address, String username, String email, Long phone,
 			String password, String profile, boolean enabled, Set<UserRole> userRoles) {
 		super();
-		this.idLong = idLong;
+		this.userId = idLong;
 		//this.customerId = customerId;
 		this.name = name;
 		this.accno = accno;
@@ -80,11 +80,11 @@ public class User implements UserDetails{
 	}
 	
 	public Long getIdLong() {
-		return idLong;
+		return userId;
 	}
 
 	public void setIdLong(Long idLong) {
-		this.idLong = idLong;
+		this.userId = idLong;
 	}
 
 	/*public String getCustomerId() {
