@@ -1,0 +1,22 @@
+.full-width{
+    width: 100%;
+}
+
+.mat-card{
+    width: 85%;
+    height: 95%;
+    border-radius: 5px;
+    /* To keep mat-card on the middle of screen*/
+    margin-left:auto;
+    margin-right:auto;  
+    vertical-align: middle;
+}
+
+a{
+    text-decoration: none !important;
+}
+
+.img-css{
+    width: 100px; 
+    height: 80px;
+}

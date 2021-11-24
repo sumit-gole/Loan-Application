@@ -1,0 +1,48 @@
+<div>
+    <mat-toolbar color="accent">
+        <a 
+            [routerLink]="'/user-dashboard'"
+            mat-icon-button class="example-icon" 
+            aria-label="Example icon-button with menu icon">
+          <mat-icon>home</mat-icon>
+        </a>
+        <span> LOAN APP </span>
+        <span class="example-spacer"></span>
+        <a 
+            *ngIf = "!isLoggedIn"
+            [routerLink]="'/signin'"
+            mat-icon-button class="example-icon favorite-icon" 
+            aria-label="Example icon-button with heart icon">
+            LOGIN
+            <mat-icon>login</mat-icon>
+        </a>
+
+        <a 
+            *ngIf = "!isLoggedIn"
+            [routerLink]="'/signup'"
+            mat-icon-button class="example-icon favorite-icon ml50 mr50"
+            aria-label="Example icon-button with heart icon">
+            REGISTER
+            <mat-icon>app_registration</mat-icon>
+        </a>
+
+        <a 
+            *ngIf = "isLoggedIn && user"
+            [routerLink] ="'user-dashboard/profile'"
+            mat-icon-button class="example-icon favorite-icon mr20 ml20" 
+            aria-label = "Example icon-button with heart icon">
+            <span style="color: #f5f5f5;">WELCOME</span> &nbsp; 
+            {{ user.name | uppercase}}
+            <mat-icon>how_to_reg</mat-icon>
+        </a>
+
+        <a 
+            (click) = "logout()"
+            *ngIf = "isLoggedIn"
+            mat-icon-button class="example-icon favorite-icon ml200 mr40"
+            aria-label="Example icon-button with heart icon">
+            LOGOUT
+            <mat-icon>logout</mat-icon>
+        </a>
+    </mat-toolbar>
+</div>

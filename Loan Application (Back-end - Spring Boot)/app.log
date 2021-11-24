@@ -1,0 +1,16 @@
+2021-11-24 09:46:17,992 INFO com.loanapp.LoanApplication [main] Starting LoanApplication using Java 16.0.2 on DESKTOP-IGFK8U8 with PID 4824 (G:\Angular and Spring Boot Project\Loan Application\Loan Application (Back-end - Spring Boot)\target\classes started by ACER in G:\Angular and Spring Boot Project\Loan Application\Loan Application (Back-end - Spring Boot))
+2021-11-24 09:46:18,000 INFO com.loanapp.LoanApplication [main] No active profile set, falling back to default profiles: default
+2021-11-24 09:46:21,615 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2021-11-24 09:46:21,616 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-11-24 09:46:21,964 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2021-11-24 09:46:22,593 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-11-24 09:46:22,703 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-11-24 09:46:22,991 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-11-24 09:46:23,218 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-11-24 09:46:24,946 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-11-24 09:46:25,017 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-11-24 09:46:26,704 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-11-24 09:46:28,909 INFO com.loanapp.LoanApplication [main] Started LoanApplication in 11.979 seconds (JVM running for 14.918)
+2021-11-24 09:47:04,433 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-24 09:55:07,751 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(12)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2021-11-24 09:55:08,016 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(12)-127.0.0.1] HikariPool-1 - Shutdown completed.

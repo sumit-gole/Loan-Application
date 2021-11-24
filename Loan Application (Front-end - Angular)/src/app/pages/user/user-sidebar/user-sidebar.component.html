@@ -1,0 +1,41 @@
+<mat-card>
+    <mat-action-list>
+        <div mat-subheader>MENU</div>
+
+        <button mat-list-item routerLink = "/user-dashboard">
+            <mat-icon class="mr10">dashboard</mat-icon> 
+            Dashboard
+        </button>
+
+        <button mat-list-item routerLink = "profile">
+            <mat-icon class="mr10">account_circle</mat-icon> 
+            Profile
+        </button>
+
+        <button mat-list-item routerLink = "create-loan">
+            <mat-icon class="mr10">create_new_folder</mat-icon> 
+            Apply Loan
+        </button>
+
+        <button mat-list-item routerLink = "display-loan">
+            <mat-icon class="mr10">dvr</mat-icon> 
+            All Loans
+        </button>
+
+        <!--<button mat-list-item routerLink = "upcoming-payment">
+            <mat-icon class="mr10">notifications_active</mat-icon> 
+            UPCOMING PAYMENT
+        </button>-->
+
+        <!-- <button mat-list-item routerLink = "profile">
+            <mat-icon class="mr10">add_circle_ouline</mat-icon> 
+            ADD CATEGORIES
+        </button> -->
+
+        <button (click) = "logout()"  mat-list-item routerLink = "profile">
+            <mat-icon class="mr10">logout</mat-icon> 
+            LOGOUT
+        </button>
+
+    </mat-action-list>
+</mat-card>

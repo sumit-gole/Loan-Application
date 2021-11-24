@@ -1,0 +1,30 @@
+.mat-spinner {
+    position: relative;
+    margin-left: 50%;
+    margin-right: 50%;
+  }
+  
+  /* Structure */
+  table {
+    width: 100%;
+  }
+  
+  .mat-form-field {
+    font-size: 14px;
+    width: 100%;
+  }
+  
+  th{
+    font-weight: bold;
+    grid-column: auto;
+  }
+  
+  .box-width{
+    max-width: 90%;
+    margin: auto;
+    margin-top: 10px;
+  }
+  
+  .title-center {
+    margin: 0 auto;
+  }

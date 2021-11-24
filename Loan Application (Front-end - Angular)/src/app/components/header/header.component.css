@@ -1,0 +1,25 @@
+/* For space between LOAN APP & LOGIN-REGI Button */
+.example-spacer {
+    flex: 1 1 auto;
+}
+
+/* For <a> tag hover white color */
+a:hover {
+    color: #fff;
+}
+
+.mt40{
+    margin-top: 40px !important;
+}
+.mr40{
+    margin-right: 40px;
+}
+.ml50{
+    margin-left: 50px;
+}
+.mr50{
+    margin-right: 50px;
+}
+.ml200{
+    margin-left: 200px;
+}
