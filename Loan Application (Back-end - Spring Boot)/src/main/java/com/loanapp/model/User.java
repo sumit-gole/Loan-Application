@@ -19,8 +19,6 @@ import org.springframework.security.core.userdetails.UserDetails;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
-
-
 // hibernate configuration
 @Entity
 // Using this annotation we create the table 'users' in our MySql db using below fields
@@ -32,7 +30,6 @@ public class User implements UserDetails{
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	
 	private Long userId;
-	//private String customerId;
 	private String name;
 	private long accno;
 	private String address;
@@ -40,8 +37,7 @@ public class User implements UserDetails{
 	private String email;
 	private Long phone;
 	private String password;
-	
-	
+
 	private String profile;
 	
 	private boolean enabled = true;
@@ -62,10 +58,10 @@ public class User implements UserDetails{
 	
 	public User(User user, HttpStatus ok) {	}
 
-	public User(Long idLong,  String name, long accno, String address, String username, String email, Long phone,
+	public User(Long userId,  String name, long accno, String address, String username, String email, Long phone,
 			String password, String profile, boolean enabled, Set<UserRole> userRoles) {
 		super();
-		this.userId = idLong;
+		this.userId = userId;
 		//this.customerId = customerId;
 		this.name = name;
 		this.accno = accno;
@@ -79,21 +75,13 @@ public class User implements UserDetails{
 		this.userRoles = userRoles;
 	}
 	
-	public Long getIdLong() {
+	public Long getUserId() {
 		return userId;
 	}
 
-	public void setIdLong(Long idLong) {
-		this.userId = idLong;
+	public void setUserId(Long userId) {
+		this.userId = userId;
 	}
-
-	/*public String getCustomerId() {
-		return customerId;
-	}
-
-	public void setCustomerId(String customerId) {
-		this.customerId = customerId;
-	}*/
 
 	public String getName() {
 		return name;

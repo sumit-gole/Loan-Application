@@ -10,14 +10,11 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.loanapp.model.Customer;
 import com.loanapp.model.Loan;
 import com.loanapp.model.PaymentSchedule;
 import com.loanapp.service.LoanManagementService;
-
 
 @RestController
 @CrossOrigin(origins = "http://localhost:4200")
@@ -26,9 +23,8 @@ public class LoanManagementController {
 	@Autowired
 	LoanManagementService loanManagementService;
 	
-	
 	/*@RequestMapping("/hello")
-	private String helloW()
+	private String helloWorld()
 	{
 		return "Hello World..";
 	}*/

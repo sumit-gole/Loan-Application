@@ -12,6 +12,6 @@ public interface UserRepository extends JpaRepository<User, Long>
 	public User findByUsername(String username);
 	
 	//adding after.. For LoanManagementService..
-	public List<User> findByEmailAndPassword(String email, String password);
+	//public List<User> findByEmailAndPassword(String email, String password);
 	
 }

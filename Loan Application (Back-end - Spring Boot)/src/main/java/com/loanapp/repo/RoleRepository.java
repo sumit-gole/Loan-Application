@@ -5,5 +5,4 @@ import com.loanapp.model.Role;
 
 public interface RoleRepository extends JpaRepository<Role, Long>{
 	
-	
 }

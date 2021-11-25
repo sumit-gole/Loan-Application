@@ -6,16 +6,16 @@ import { LoginService } from './../login.service';
 })
 export class HardcodedAuthenticationService {
 
-  // to get user id from localStorage..
+  // to get user id from sessionStorage..
   //user: any;
 
   constructor(private login: LoginService) {}
   
   getCustomerId(): string {
-    // to get user id from localStorage..
-    return this.login.getUser().idLong;
+    // to get user id from sessionStorage..
+    return this.login.getUser().userId;
     
-    //return this.user?.idLong;
+    //return this.user?.userId;
     //return this.customer?.customerId;
   }
 

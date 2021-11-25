@@ -14,56 +14,26 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.loanapp.model.Customer;
 import com.loanapp.model.Loan;
 import com.loanapp.model.PaymentSchedule;
-import com.loanapp.repo.CustomerRepository;
 import com.loanapp.repo.LoanRepository;
 import com.loanapp.repo.PaymentScheduleRepository;
-
 
 @Service
 public class LoanManagementService {
 
 	@Autowired
-	CustomerRepository customerRepository;
-	
-	@Autowired
 	LoanRepository loanRepository;
 	
 	@Autowired
 	PaymentScheduleRepository paymentScheduleRepository;
-
 	
 	private static final Logger logger = LoggerFactory.getLogger(LoanManagementService.class);
 
-	
-	public Customer saveCustomerDetails(Customer customer) {
-		customer.setCustomerId(generateKey("USER"));
-		return customerRepository.save(customer);
-
-	}
-	
 	private String generateKey(String prefix) {
 		String key = UUID.randomUUID().toString().split("-")[0];
 		return prefix+ key;
 	}
-	
-	public Customer getCustomerDetails(String customerId) {
-		logger.info("Getting customer details for {}", customerId);
-		return customerRepository.findById(customerId).get();
-	}
-
-	
-	public Customer getCustomerDetails(String email, String password) {
-		List<Customer> customerList = customerRepository.findByEmailAndPassword(email, password);
-		if (customerList.isEmpty()) {
-			return new Customer();
-		}
-		logger.info("Verifying existing customer details for {}", email);
-		return customerRepository.findByEmailAndPassword(email, password).get(0);
-	}
-	
 
 	public List<Loan> getLoansByCustomerId(String customerId) {
 		List<Loan> loans = new ArrayList<Loan>();
@@ -72,7 +42,6 @@ public class LoanManagementService {
 		return loans;
 	}
 
-	
 	public List<PaymentSchedule> getPaymentScheduleByLoanId(String loanId) {
 		logger.info("Getting Payment Schedule for Loan {}", loanId);
 		return paymentScheduleRepository.findByLoanId(loanId);
