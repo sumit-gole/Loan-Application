@@ -7295,3 +7295,31 @@ Identify and stop the process that's listening on port 8080 or configure this ap
 2021-11-26 16:38:03,953 INFO com.loanapp.service.LoanManagementService [http-nio-8080-exec-6] Getting loan details for existing customer 1
 2021-11-26 16:39:14,324 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(6)-127.0.0.1] HikariPool-1 - Shutdown initiated...
 2021-11-26 16:39:14,377 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(6)-127.0.0.1] HikariPool-1 - Shutdown completed.
+2021-11-26 16:39:21,838 INFO com.loanapp.LoanApplication [main] Starting LoanApplication using Java 16.0.2 on DESKTOP-IGFK8U8 with PID 14660 (G:\Angular and Spring Boot Project\Loan Application\Loan Application (Back-end - Spring Boot)\target\classes started by ACER in G:\Angular and Spring Boot Project\Loan Application\Loan Application (Back-end - Spring Boot))
+2021-11-26 16:39:21,843 INFO com.loanapp.LoanApplication [main] No active profile set, falling back to default profiles: default
+2021-11-26 16:39:24,185 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2021-11-26 16:39:24,186 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-11-26 16:39:24,486 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2021-11-26 16:39:24,912 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-11-26 16:39:25,020 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-11-26 16:39:25,301 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-11-26 16:39:25,481 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-11-26 16:39:26,155 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-11-26 16:39:26,185 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-11-26 16:39:27,861 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-11-26 16:39:29,556 INFO com.loanapp.LoanApplication [main] Started LoanApplication in 8.592 seconds (JVM running for 10.289)
+2021-11-26 16:39:38,812 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-26 16:39:39,449 INFO com.loanapp.service.LoanManagementService [http-nio-8080-exec-1] Getting loan details for existing customer 1
+2021-11-26 16:39:41,088 INFO com.loanapp.service.LoanManagementService [http-nio-8080-exec-3] Getting Payment Schedule for Loan LOAN176b5f27
+2021-11-26 16:39:43,862 INFO com.loanapp.service.LoanManagementService [http-nio-8080-exec-4] Getting loan details for existing customer 1
+2021-11-26 16:39:45,823 INFO com.loanapp.service.LoanManagementService [http-nio-8080-exec-6] Getting Payment Schedule for Loan LOAN6c037e93
+2021-11-26 16:39:51,707 INFO com.loanapp.service.LoanManagementService [http-nio-8080-exec-8] Getting loan details for existing customer 1
+2021-11-26 16:40:33,338 INFO com.loanapp.service.LoanManagementService [http-nio-8080-exec-10] Getting Payment Schedule for Loan LOAN176b5f27
+2021-11-26 16:40:35,807 INFO com.loanapp.service.LoanManagementService [http-nio-8080-exec-2] Getting loan details for existing customer 1
+2021-11-26 16:40:38,279 INFO com.loanapp.service.LoanManagementService [http-nio-8080-exec-3] Getting Payment Schedule for Loan LOAN6c037e93
+2021-11-26 16:40:39,354 INFO com.loanapp.service.LoanManagementService [http-nio-8080-exec-5] Updating payment status for payment schedule PAY00bee4ef
+2021-11-26 16:40:39,451 INFO com.loanapp.service.LoanManagementService [http-nio-8080-exec-6] Getting Payment Schedule for Loan LOAN6c037e93
+2021-11-26 16:40:41,835 INFO com.loanapp.service.LoanManagementService [http-nio-8080-exec-9] Updating payment status for payment schedule PAY31ae5d0c
+2021-11-26 16:40:41,878 INFO com.loanapp.service.LoanManagementService [http-nio-8080-exec-10] Getting Payment Schedule for Loan LOAN6c037e93
+2021-11-26 16:41:33,554 INFO com.loanapp.service.LoanManagementService [http-nio-8080-exec-3] Updating payment status for payment schedule PAY43b9cca6
+2021-11-26 16:41:33,601 INFO com.loanapp.service.LoanManagementService [http-nio-8080-exec-4] Getting Payment Schedule for Loan LOAN6c037e93
