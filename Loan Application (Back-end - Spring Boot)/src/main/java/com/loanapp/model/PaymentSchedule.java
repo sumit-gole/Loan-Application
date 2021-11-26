@@ -5,8 +5,8 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
-@Entity
-@Table
+@Table(name = "payment_schedule")
+@Entity(name = "payment_schedule")
 public class PaymentSchedule {
 	@Id
 	@Column
