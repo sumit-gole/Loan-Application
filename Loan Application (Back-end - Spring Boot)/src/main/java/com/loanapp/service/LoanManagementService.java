@@ -207,5 +207,12 @@ public class LoanManagementService {
 		logger.info("Approved Load Status ", loanId);
 		return loanRepository.save(loan);
 	}
+	
+	
+	
+	/*//For Sort the Payment_Schedule by Paymment_Date..
+	public List<PaymentSchedule> getPaymentSchedule(String loanId){
+		return (List<PaymentSchedule>) paymentScheduleRepository.sortPaymentScheduleByDate(loanId);
+	}*/
 
 }

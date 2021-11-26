@@ -1,8 +1,11 @@
 package com.loanapp.controller;
 
 import java.util.List;
+import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -29,6 +32,7 @@ public class LoanManagementController {
 		return "Hello World..";
 	}*/
 	
+	
 	@GetMapping("/loans/{customerId}")
 	private List<Loan> getLoans(@PathVariable("customerId") String customerId) {
 		return loanManagementService.getLoansByCustomerId(customerId);
@@ -39,6 +43,12 @@ public class LoanManagementController {
 	private List<PaymentSchedule> getPaymentSchedule(@PathVariable("loanId") String loanId) {
 		return loanManagementService.getPaymentScheduleByLoanId(loanId);
 	}
+	
+	//For Sort the Payment_Schedule by Paymment_Date..
+	/*@GetMapping("/loan/payment-schedule/{loanId}")
+	public ResponseEntity<List<PaymentSchedule>> getPaymentScheduleDate(@PathVariable String loanId){
+		return new ResponseEntity<>(loanManagementService.getPaymentSchedule(loanId), HttpStatus.OK);
+	}*/
 
 	@PutMapping("/update-payment/{paymentId}")
 	private PaymentSchedule updatePaymentStatus(@PathVariable("paymentId") String paymentId) {

@@ -37,7 +37,12 @@
               </td>
               <td>{{ payment.paymentAmount | number }}</td>
               <td>
-                <button class="btn btn-primary" (click)="changePaymentStatus($event,payment.paymentId)">PAY</button>
+                <button 
+                  class="btn btn-primary" 
+                  [disabled]="payment.paymentStatus == 'PAID'"
+                  (click)="changePaymentStatus($event,payment.paymentId)">
+                  PAY
+                </button>
               </td>
             </tr>
           </tbody>

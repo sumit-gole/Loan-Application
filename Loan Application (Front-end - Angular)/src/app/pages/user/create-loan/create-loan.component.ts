@@ -50,7 +50,7 @@ export class CreateLoanComponent implements OnInit {
   ngOnInit() {
     this.customerId=this.authService.getCustomerId();
     this.loanForm = this.formBuilder.group({
-      customerId: [{ value:this.customerId, disabled: true }],
+      customerId: [{ value: this.customerId, disabled: true }],
       loanAmount: ['', [Validators.required, Validators.max(10000000), Validators.min(1000)]],
       tradeDate: ['',Validators.required],
       startDate: ['',Validators.required],
