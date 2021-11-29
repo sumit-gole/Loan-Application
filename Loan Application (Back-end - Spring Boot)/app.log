@@ -122,3 +122,23 @@
 2021-11-29 10:19:38,156 INFO com.loanapp.service.LoanManagementService [http-nio-8080-exec-5] Getting Payment Schedule for Loan LOAN65addfa4
 2021-11-29 10:25:20,529 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(9)-127.0.0.1] HikariPool-1 - Shutdown initiated...
 2021-11-29 10:25:20,587 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(9)-127.0.0.1] HikariPool-1 - Shutdown completed.
+2021-11-29 10:26:40,541 INFO com.loanapp.LoanApplication [main] Starting LoanApplication using Java 16.0.2 on DESKTOP-IGFK8U8 with PID 14576 (G:\Angular and Spring Boot Project\Loan Application\Loan Application (Back-end - Spring Boot)\target\classes started by ACER in G:\Angular and Spring Boot Project\Loan Application\Loan Application (Back-end - Spring Boot))
+2021-11-29 10:26:40,568 INFO com.loanapp.LoanApplication [main] No active profile set, falling back to default profiles: default
+2021-11-29 10:26:42,868 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2021-11-29 10:26:42,870 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-11-29 10:26:43,131 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2021-11-29 10:26:43,454 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-11-29 10:26:43,597 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-11-29 10:26:43,969 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-11-29 10:26:44,211 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-11-29 10:26:45,613 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-11-29 10:26:45,644 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-11-29 10:26:48,147 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-11-29 10:26:50,466 INFO com.loanapp.LoanApplication [main] Started LoanApplication in 10.583 seconds (JVM running for 12.065)
+2021-11-29 10:28:31,300 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-29 10:28:58,273 INFO com.loanapp.service.LoanManagementService [http-nio-8080-exec-7] Creating Even Principal Schedule for Loan com.loanapp.model.Loan@74fd782
+2021-11-29 10:28:58,342 INFO com.loanapp.service.LoanManagementService [http-nio-8080-exec-7] New Loan com.loanapp.model.Loan@69b78aad created for the customer
+2021-11-29 10:29:00,456 INFO com.loanapp.service.LoanManagementService [http-nio-8080-exec-8] Getting loan details for existing customer 1
+2021-11-29 10:29:07,175 INFO com.loanapp.service.LoanManagementService [http-nio-8080-exec-1] Getting Payment Schedule for Loan LOAN15b65ec2
+2021-11-29 10:29:15,655 INFO com.loanapp.service.LoanManagementService [http-nio-8080-exec-4] Updating payment status for payment schedule PAY17c189d7
+2021-11-29 10:29:15,712 INFO com.loanapp.service.LoanManagementService [http-nio-8080-exec-5] Getting Payment Schedule for Loan LOAN15b65ec2
