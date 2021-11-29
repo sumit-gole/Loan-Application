@@ -1,5 +1,7 @@
 package com.loanapp.model;
 
+import java.sql.Date;
+
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
@@ -18,11 +20,11 @@ public class Loan implements Cloneable {
 	@Column
 	private int loanAmount;
 	@Column
-	private String tradeDate;
+	private Date tradeDate;
 	@Column
 	private String startDate;
 	@Column
-	private String maturityDate;
+	private Date maturityDate;
 	@Column
 	private int loanDuration;
 	@Column
@@ -73,11 +75,11 @@ public class Loan implements Cloneable {
 		this.loanAmount = loanAmount;
 	}
 
-	public String getTradeDate() {
+	public Date getTradeDate() {
 		return tradeDate;
 	}
 
-	public void setTradeDate(String tradeDate) {
+	public void setTradeDate(Date tradeDate) {
 		this.tradeDate = tradeDate;
 	}
 
@@ -89,11 +91,11 @@ public class Loan implements Cloneable {
 		this.startDate = startDate;
 	}
 
-	public String getMaturityDate() {
+	public Date getMaturityDate() {
 		return maturityDate;
 	}
 
-	public void setMaturityDate(String maturityDate) {
+	public void setMaturityDate(Date maturityDate) {
 		this.maturityDate = maturityDate;
 	}
 
