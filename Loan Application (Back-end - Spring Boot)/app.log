@@ -1,144 +1,520 @@
-2021-11-29 09:38:37,919 INFO com.loanapp.LoanApplication [main] Starting LoanApplication using Java 16.0.2 on DESKTOP-IGFK8U8 with PID 16684 (G:\Angular and Spring Boot Project\Loan Application\Loan Application (Back-end - Spring Boot)\target\classes started by ACER in G:\Angular and Spring Boot Project\Loan Application\Loan Application (Back-end - Spring Boot))
-2021-11-29 09:38:37,929 INFO com.loanapp.LoanApplication [main] No active profile set, falling back to default profiles: default
-2021-11-29 09:38:41,584 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
-2021-11-29 09:38:41,585 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.54]
-2021-11-29 09:38:42,150 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
-2021-11-29 09:38:42,641 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
-2021-11-29 09:38:42,752 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.32.Final
-2021-11-29 09:38:43,112 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-2021-11-29 09:38:43,422 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
-2021-11-29 09:38:46,564 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
-2021-11-29 09:38:46,605 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
-2021-11-29 09:38:48,668 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2021-11-29 09:38:51,490 INFO com.loanapp.LoanApplication [main] Started LoanApplication in 14.371 seconds (JVM running for 17.38)
-2021-11-29 09:40:26,327 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
-2021-11-29 09:40:29,902 INFO com.loanapp.service.LoanManagementService [http-nio-8080-exec-6] Getting loan details for existing customer 1
-2021-11-29 09:40:31,506 INFO com.loanapp.service.LoanManagementService [http-nio-8080-exec-9] Getting Payment Schedule for Loan LOAN176b5f27
-2021-11-29 09:40:39,575 INFO com.loanapp.service.LoanManagementService [http-nio-8080-exec-1] Getting loan details for existing customer 1
-2021-11-29 09:40:40,468 INFO com.loanapp.service.LoanManagementService [http-nio-8080-exec-3] Getting Payment Schedule for Loan LOAN6c037e93
-2021-11-29 09:50:20,296 INFO com.loanapp.service.LoanManagementService [http-nio-8080-exec-5] Getting Payment Schedule for Loan LOAN6c037e93
-2021-11-29 09:50:37,680 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(16)-127.0.0.1] HikariPool-1 - Shutdown initiated...
-2021-11-29 09:50:37,959 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(16)-127.0.0.1] HikariPool-1 - Shutdown completed.
-2021-11-29 09:51:06,115 INFO com.loanapp.LoanApplication [main] Starting LoanApplication using Java 16.0.2 on DESKTOP-IGFK8U8 with PID 23280 (G:\Angular and Spring Boot Project\Loan Application\Loan Application (Back-end - Spring Boot)\target\classes started by ACER in G:\Angular and Spring Boot Project\Loan Application\Loan Application (Back-end - Spring Boot))
-2021-11-29 09:51:06,119 INFO com.loanapp.LoanApplication [main] No active profile set, falling back to default profiles: default
-2021-11-29 09:51:09,624 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
-2021-11-29 09:51:09,625 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.54]
-2021-11-29 09:51:09,937 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
-2021-11-29 09:51:10,688 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
-2021-11-29 09:51:10,803 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.32.Final
-2021-11-29 09:51:11,079 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-2021-11-29 09:51:11,454 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
-2021-11-29 09:51:13,243 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
-2021-11-29 09:51:13,277 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
-2021-11-29 09:51:15,906 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2021-11-29 09:51:18,685 INFO com.loanapp.LoanApplication [main] Started LoanApplication in 13.32 seconds (JVM running for 16.278)
-2021-11-29 09:52:36,356 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(6)-127.0.0.1] HikariPool-1 - Shutdown initiated...
-2021-11-29 09:52:36,393 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(6)-127.0.0.1] HikariPool-1 - Shutdown completed.
-2021-11-29 09:53:08,196 INFO com.loanapp.LoanApplication [main] Starting LoanApplication using Java 16.0.2 on DESKTOP-IGFK8U8 with PID 20788 (G:\Angular and Spring Boot Project\Loan Application\Loan Application (Back-end - Spring Boot)\target\classes started by ACER in G:\Angular and Spring Boot Project\Loan Application\Loan Application (Back-end - Spring Boot))
-2021-11-29 09:53:08,200 INFO com.loanapp.LoanApplication [main] No active profile set, falling back to default profiles: default
-2021-11-29 09:53:10,218 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
-2021-11-29 09:53:10,218 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.54]
-2021-11-29 09:53:10,457 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
-2021-11-29 09:53:10,805 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
-2021-11-29 09:53:10,878 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.32.Final
-2021-11-29 09:53:11,141 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-2021-11-29 09:53:11,314 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
-2021-11-29 09:53:11,938 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
-2021-11-29 09:53:11,972 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
-2021-11-29 09:53:14,133 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2021-11-29 09:53:15,772 INFO com.loanapp.LoanApplication [main] Started LoanApplication in 8.172 seconds (JVM running for 9.738)
-2021-11-29 09:54:19,872 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
-2021-11-29 09:54:43,953 INFO com.loanapp.service.LoanManagementService [http-nio-8080-exec-7] Getting loan details for existing customer 1
-2021-11-29 09:55:09,148 INFO com.loanapp.service.LoanManagementService [http-nio-8080-exec-10] Creating Even Principal Schedule for Loan com.loanapp.model.Loan@49fa70ff
-2021-11-29 09:55:09,263 INFO com.loanapp.service.LoanManagementService [http-nio-8080-exec-10] New Loan com.loanapp.model.Loan@431bf48d created for the customer
-2021-11-29 10:02:03,929 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(12)-127.0.0.1] HikariPool-1 - Shutdown initiated...
-2021-11-29 10:02:04,215 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(12)-127.0.0.1] HikariPool-1 - Shutdown completed.
-2021-11-29 10:08:36,220 INFO com.loanapp.LoanApplication [main] Starting LoanApplication using Java 16.0.2 on DESKTOP-IGFK8U8 with PID 13512 (G:\Angular and Spring Boot Project\Loan Application\Loan Application (Back-end - Spring Boot)\target\classes started by ACER in G:\Angular and Spring Boot Project\Loan Application\Loan Application (Back-end - Spring Boot))
-2021-11-29 10:08:36,244 INFO com.loanapp.LoanApplication [main] No active profile set, falling back to default profiles: default
-2021-11-29 10:08:39,823 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
-2021-11-29 10:08:39,824 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.54]
-2021-11-29 10:08:40,190 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
-2021-11-29 10:08:40,818 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
-2021-11-29 10:08:40,968 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.32.Final
-2021-11-29 10:08:41,238 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-2021-11-29 10:08:41,494 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
-2021-11-29 10:08:43,055 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
-2021-11-29 10:08:43,106 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
-2021-11-29 10:08:45,895 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2021-11-29 10:08:48,530 INFO com.loanapp.LoanApplication [main] Started LoanApplication in 13.41 seconds (JVM running for 16.93)
-2021-11-29 10:09:34,730 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
-2021-11-29 10:09:49,979 INFO com.loanapp.service.LoanManagementService [http-nio-8080-exec-5] Getting loan details for existing customer 1
-2021-11-29 10:10:07,764 INFO com.loanapp.service.LoanManagementService [http-nio-8080-exec-7] Creating Interest Only  Schedule for Loan com.loanapp.model.Loan@24f355b5
-2021-11-29 10:10:07,845 INFO com.loanapp.service.LoanManagementService [http-nio-8080-exec-7] New Loan com.loanapp.model.Loan@b6ebbc5 created for the customer
-2021-11-29 10:10:31,371 INFO com.loanapp.service.LoanManagementService [http-nio-8080-exec-10] Getting loan details for existing customer 1
-2021-11-29 10:10:54,619 INFO com.loanapp.service.LoanManagementService [http-nio-8080-exec-3] Getting Payment Schedule for Loan LOAN9a7e53c9
-2021-11-29 10:12:47,029 INFO com.loanapp.service.LoanManagementService [http-nio-8080-exec-5] Getting Payment Schedule for Loan LOAN9a7e53c9
-2021-11-29 10:12:52,798 INFO com.loanapp.service.LoanManagementService [http-nio-8080-exec-7] Getting Payment Schedule for Loan LOAN9a7e53c9
-2021-11-29 10:13:20,660 INFO com.loanapp.service.LoanManagementService [http-nio-8080-exec-9] Getting Payment Schedule for Loan LOAN9a7e53c9
-2021-11-29 10:13:22,487 INFO com.loanapp.service.LoanManagementService [http-nio-8080-exec-10] Getting Payment Schedule for Loan LOAN9a7e53c9
-2021-11-29 10:13:39,384 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(7)-127.0.0.1] HikariPool-1 - Shutdown initiated...
-2021-11-29 10:13:39,486 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(7)-127.0.0.1] HikariPool-1 - Shutdown completed.
-2021-11-29 10:13:51,246 INFO com.loanapp.LoanApplication [main] Starting LoanApplication using Java 16.0.2 on DESKTOP-IGFK8U8 with PID 3212 (G:\Angular and Spring Boot Project\Loan Application\Loan Application (Back-end - Spring Boot)\target\classes started by ACER in G:\Angular and Spring Boot Project\Loan Application\Loan Application (Back-end - Spring Boot))
-2021-11-29 10:13:51,250 INFO com.loanapp.LoanApplication [main] No active profile set, falling back to default profiles: default
-2021-11-29 10:13:53,928 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
-2021-11-29 10:13:53,929 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.54]
-2021-11-29 10:13:54,403 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
-2021-11-29 10:13:54,888 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
-2021-11-29 10:13:54,990 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.32.Final
-2021-11-29 10:13:55,255 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-2021-11-29 10:13:55,558 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
-2021-11-29 10:13:57,277 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
-2021-11-29 10:13:57,335 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
-2021-11-29 10:13:59,870 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2021-11-29 10:14:02,648 INFO com.loanapp.LoanApplication [main] Started LoanApplication in 12.093 seconds (JVM running for 13.644)
-2021-11-29 10:14:51,655 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
-2021-11-29 10:15:19,323 INFO com.loanapp.service.LoanManagementService [http-nio-8080-exec-7] Creating Interest Only  Schedule for Loan com.loanapp.model.Loan@2e4271dc
-2021-11-29 10:15:19,419 INFO com.loanapp.service.LoanManagementService [http-nio-8080-exec-7] New Loan com.loanapp.model.Loan@7c42e139 created for the customer
-2021-11-29 10:15:21,294 INFO com.loanapp.service.LoanManagementService [http-nio-8080-exec-9] Getting loan details for existing customer 1
-2021-11-29 10:15:29,125 INFO com.loanapp.service.LoanManagementService [http-nio-8080-exec-1] Getting Payment Schedule for Loan LOANb5f9a9f2
-2021-11-29 10:16:11,950 INFO com.loanapp.service.LoanManagementService [http-nio-8080-exec-3] Getting Payment Schedule for Loan LOANb5f9a9f2
-2021-11-29 10:17:41,884 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(7)-127.0.0.1] HikariPool-1 - Shutdown initiated...
-2021-11-29 10:17:42,046 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(7)-127.0.0.1] HikariPool-1 - Shutdown completed.
-2021-11-29 10:18:12,667 INFO com.loanapp.LoanApplication [main] Starting LoanApplication using Java 16.0.2 on DESKTOP-IGFK8U8 with PID 22152 (G:\Angular and Spring Boot Project\Loan Application\Loan Application (Back-end - Spring Boot)\target\classes started by ACER in G:\Angular and Spring Boot Project\Loan Application\Loan Application (Back-end - Spring Boot))
-2021-11-29 10:18:12,706 INFO com.loanapp.LoanApplication [main] No active profile set, falling back to default profiles: default
-2021-11-29 10:18:15,147 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
-2021-11-29 10:18:15,148 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.54]
-2021-11-29 10:18:15,460 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
-2021-11-29 10:18:15,806 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
-2021-11-29 10:18:15,910 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.32.Final
-2021-11-29 10:18:16,126 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-2021-11-29 10:18:16,289 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
-2021-11-29 10:18:17,031 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
-2021-11-29 10:18:17,082 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
-2021-11-29 10:18:19,660 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2021-11-29 10:18:22,406 INFO com.loanapp.LoanApplication [main] Started LoanApplication in 10.404 seconds (JVM running for 12.066)
-2021-11-29 10:18:33,237 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
-2021-11-29 10:18:49,188 INFO com.loanapp.service.LoanManagementService [http-nio-8080-exec-5] Getting loan details for existing customer 1
-2021-11-29 10:19:04,490 INFO com.loanapp.service.LoanManagementService [http-nio-8080-exec-7] Creating Even Principal Schedule for Loan com.loanapp.model.Loan@14c259f9
-2021-11-29 10:19:04,614 INFO com.loanapp.service.LoanManagementService [http-nio-8080-exec-7] New Loan com.loanapp.model.Loan@1c21d65b created for the customer
-2021-11-29 10:19:08,869 INFO com.loanapp.service.LoanManagementService [http-nio-8080-exec-9] Getting loan details for existing customer 1
-2021-11-29 10:19:26,570 INFO com.loanapp.service.LoanManagementService [http-nio-8080-exec-2] Getting Payment Schedule for Loan LOAN65addfa4
-2021-11-29 10:19:38,106 INFO com.loanapp.service.LoanManagementService [http-nio-8080-exec-4] Updating payment status for payment schedule PAY134dc9c2
-2021-11-29 10:19:38,156 INFO com.loanapp.service.LoanManagementService [http-nio-8080-exec-5] Getting Payment Schedule for Loan LOAN65addfa4
-2021-11-29 10:25:20,529 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(9)-127.0.0.1] HikariPool-1 - Shutdown initiated...
-2021-11-29 10:25:20,587 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(9)-127.0.0.1] HikariPool-1 - Shutdown completed.
-2021-11-29 10:26:40,541 INFO com.loanapp.LoanApplication [main] Starting LoanApplication using Java 16.0.2 on DESKTOP-IGFK8U8 with PID 14576 (G:\Angular and Spring Boot Project\Loan Application\Loan Application (Back-end - Spring Boot)\target\classes started by ACER in G:\Angular and Spring Boot Project\Loan Application\Loan Application (Back-end - Spring Boot))
-2021-11-29 10:26:40,568 INFO com.loanapp.LoanApplication [main] No active profile set, falling back to default profiles: default
-2021-11-29 10:26:42,868 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
-2021-11-29 10:26:42,870 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.54]
-2021-11-29 10:26:43,131 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
-2021-11-29 10:26:43,454 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
-2021-11-29 10:26:43,597 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.32.Final
-2021-11-29 10:26:43,969 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-2021-11-29 10:26:44,211 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
-2021-11-29 10:26:45,613 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
-2021-11-29 10:26:45,644 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
-2021-11-29 10:26:48,147 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2021-11-29 10:26:50,466 INFO com.loanapp.LoanApplication [main] Started LoanApplication in 10.583 seconds (JVM running for 12.065)
-2021-11-29 10:28:31,300 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
-2021-11-29 10:28:58,273 INFO com.loanapp.service.LoanManagementService [http-nio-8080-exec-7] Creating Even Principal Schedule for Loan com.loanapp.model.Loan@74fd782
-2021-11-29 10:28:58,342 INFO com.loanapp.service.LoanManagementService [http-nio-8080-exec-7] New Loan com.loanapp.model.Loan@69b78aad created for the customer
-2021-11-29 10:29:00,456 INFO com.loanapp.service.LoanManagementService [http-nio-8080-exec-8] Getting loan details for existing customer 1
-2021-11-29 10:29:07,175 INFO com.loanapp.service.LoanManagementService [http-nio-8080-exec-1] Getting Payment Schedule for Loan LOAN15b65ec2
-2021-11-29 10:29:15,655 INFO com.loanapp.service.LoanManagementService [http-nio-8080-exec-4] Updating payment status for payment schedule PAY17c189d7
-2021-11-29 10:29:15,712 INFO com.loanapp.service.LoanManagementService [http-nio-8080-exec-5] Getting Payment Schedule for Loan LOAN15b65ec2
+2022-01-01 11:04:34,720 INFO com.loanapp.LoanApplication [main] Starting LoanApplication using Java 16.0.2 on DESKTOP-IGFK8U8 with PID 15196 (G:\Angular and Spring Boot Project\Loan Application\Loan Application (Back-end - Spring Boot)\target\classes started by ACER in G:\Angular and Spring Boot Project\Loan Application\Loan Application (Back-end - Spring Boot))
+2022-01-01 11:04:34,746 INFO com.loanapp.LoanApplication [main] No active profile set, falling back to default profiles: default
+2022-01-01 11:04:38,265 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2022-01-01 11:04:38,266 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.54]
+2022-01-01 11:04:38,614 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2022-01-01 11:04:39,307 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-01-01 11:04:39,439 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.32.Final
+2022-01-01 11:04:39,784 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-01-01 11:04:40,042 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2022-01-01 11:04:42,352 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-01-01 11:04:42,398 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-01-01 11:04:45,293 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-01-01 11:04:51,158 INFO com.loanapp.LoanApplication [main] Started LoanApplication in 17.588 seconds (JVM running for 21.865)
+2022-01-01 11:05:33,679 INFO com.loanapp.LoanApplication [main] Starting LoanApplication using Java 16.0.2 on DESKTOP-IGFK8U8 with PID 6920 (G:\Angular and Spring Boot Project\Loan Application\Loan Application (Back-end - Spring Boot)\target\classes started by ACER in G:\Angular and Spring Boot Project\Loan Application\Loan Application (Back-end - Spring Boot))
+2022-01-01 11:05:33,684 INFO com.loanapp.LoanApplication [main] No active profile set, falling back to default profiles: default
+2022-01-01 11:05:35,982 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2022-01-01 11:05:35,982 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.54]
+2022-01-01 11:05:36,305 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2022-01-01 11:05:36,802 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-01-01 11:05:37,088 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.32.Final
+2022-01-01 11:05:37,527 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-01-01 11:05:37,731 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2022-01-01 11:05:38,384 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-01-01 11:05:38,484 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-01-01 11:05:40,035 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-01-01 11:05:41,771 INFO com.loanapp.LoanApplication [main] Started LoanApplication in 8.926 seconds (JVM running for 10.476)
+2022-01-01 11:12:32,401 WARN com.zaxxer.hikari.pool.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m28s197ms944µs500ns).
+2022-01-01 11:13:43,393 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(10)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2022-01-01 11:13:44,009 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(10)-127.0.0.1] HikariPool-1 - Shutdown completed.
+2022-01-01 11:14:20,967 INFO com.loanapp.LoanApplication [main] Starting LoanApplication using Java 16.0.2 on DESKTOP-IGFK8U8 with PID 7816 (G:\Angular and Spring Boot Project\Loan Application\Loan Application (Back-end - Spring Boot)\target\classes started by ACER in G:\Angular and Spring Boot Project\Loan Application\Loan Application (Back-end - Spring Boot))
+2022-01-01 11:14:20,973 INFO com.loanapp.LoanApplication [main] No active profile set, falling back to default profiles: default
+2022-01-01 11:14:24,123 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2022-01-01 11:14:24,125 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.54]
+2022-01-01 11:14:24,544 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2022-01-01 11:14:25,057 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-01-01 11:14:25,169 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.32.Final
+2022-01-01 11:14:25,448 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-01-01 11:14:25,700 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2022-01-01 11:14:26,983 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-01-01 11:14:27,012 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-01-01 11:14:29,483 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-01-01 11:14:31,958 INFO com.loanapp.LoanApplication [main] Started LoanApplication in 11.809 seconds (JVM running for 13.608)
+2022-01-01 12:00:55,131 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-01 12:01:29,659 ERROR org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet] [http-nio-8080-exec-5] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.Exception: INVALID CREDENTIALS!!Bad credentials] with root cause
+java.lang.Exception: INVALID CREDENTIALS!!Bad credentials
+	at com.loanapp.controller.AuthenticateController.authenticate(AuthenticateController.java:66)
+	at com.loanapp.controller.AuthenticateController.generateToken(AuthenticateController.java:43)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:113)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:327)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:115)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:121)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:115)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:126)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:149)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at com.loanapp.config.JwtAuthenticationFilter.doFilterInternal(JwtAuthenticationFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:110)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:80)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:211)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:183)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:895)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1722)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+2022-01-01 12:01:39,410 ERROR org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet] [http-nio-8080-exec-6] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.Exception: INVALID CREDENTIALS!!Bad credentials] with root cause
+java.lang.Exception: INVALID CREDENTIALS!!Bad credentials
+	at com.loanapp.controller.AuthenticateController.authenticate(AuthenticateController.java:66)
+	at com.loanapp.controller.AuthenticateController.generateToken(AuthenticateController.java:43)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:113)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:327)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:115)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:121)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:115)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:126)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:149)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at com.loanapp.config.JwtAuthenticationFilter.doFilterInternal(JwtAuthenticationFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:110)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:80)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:211)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:183)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:895)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1722)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+2022-01-01 12:01:58,876 ERROR org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet] [http-nio-8080-exec-7] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.Exception: INVALID CREDENTIALS!!Bad credentials] with root cause
+java.lang.Exception: INVALID CREDENTIALS!!Bad credentials
+	at com.loanapp.controller.AuthenticateController.authenticate(AuthenticateController.java:66)
+	at com.loanapp.controller.AuthenticateController.generateToken(AuthenticateController.java:43)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:113)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:327)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:115)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:121)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:115)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:126)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:149)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at com.loanapp.config.JwtAuthenticationFilter.doFilterInternal(JwtAuthenticationFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:110)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:80)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:211)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:183)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:895)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1722)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+2022-01-01 12:29:05,603 ERROR org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet] [http-nio-8080-exec-3] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.Exception: INVALID CREDENTIALS!!Bad credentials] with root cause
+java.lang.Exception: INVALID CREDENTIALS!!Bad credentials
+	at com.loanapp.controller.AuthenticateController.authenticate(AuthenticateController.java:66)
+	at com.loanapp.controller.AuthenticateController.generateToken(AuthenticateController.java:43)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:113)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:327)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:115)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:121)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:115)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:126)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:149)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at com.loanapp.config.JwtAuthenticationFilter.doFilterInternal(JwtAuthenticationFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:110)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:80)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:211)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:183)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:895)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1722)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+2022-01-01 12:29:05,783 ERROR org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet] [http-nio-8080-exec-4] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.Exception: INVALID CREDENTIALS!!Bad credentials] with root cause
+java.lang.Exception: INVALID CREDENTIALS!!Bad credentials
+	at com.loanapp.controller.AuthenticateController.authenticate(AuthenticateController.java:66)
+	at com.loanapp.controller.AuthenticateController.generateToken(AuthenticateController.java:43)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:113)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:327)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:115)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:121)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:115)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:126)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:149)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at com.loanapp.config.JwtAuthenticationFilter.doFilterInternal(JwtAuthenticationFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:110)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:80)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:211)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:183)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:895)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1722)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+2022-01-01 12:32:03,501 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(82)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2022-01-01 12:32:03,602 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(82)-127.0.0.1] HikariPool-1 - Shutdown completed.
