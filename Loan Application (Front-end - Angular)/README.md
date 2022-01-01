@@ -2,6 +2,12 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.0.2.
 
+## Hosted Using Firebase
+
+I have deployed this project with the help of Firebase, you can see [live-demo](https://loan-app1.web.app/) of project by visiting on below link: 
+
+Host Link - [https://loan-app1.web.app](https://loan-app1.web.app)
+
 ## Version
 - Angular CLI: 13.0.2
 - Node: 16.13.0
