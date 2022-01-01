@@ -2,6 +2,12 @@
 
 ## Loan Fullstack Assignment Using Angular & Spring Boot
 In this project I have created a Loan App which contains a features of Create a loan and generate payment schedule for all loans.
+
+## Hosted Using Firebase
+
+I have deployed this project with the help of Firebase, you can see [live-demo](https://loan-app1.web.app/) of project by visiting on below link: 
+
+Host Link - [https://loan-app1.web.app](https://loan-app1.web.app)
  
 ## Instructions :
 
